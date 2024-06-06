@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <div>
+        <div><input type="text" name="txtname" id="txtname" placeholder="Nome do Cliente"></div>
+        <div><input type="text" name="txtidade" id="txtidade" placeholder="Idade Cliente"></div>
+        <div><input type="email" name="txtemail" id="txtemail" placeholder="Email do Cliente"></div>
+        <div>
+            <select name="selpais" id="selpais">
+                <option selected value="">Escolha seu país</option>
+                <option value="India">India</option>
+                <option value="Japao">Japão</option>
+                <option value="USA">USA</option>
+            </select>
+        </div>
+        <div>
+            <input type="button" value="Salvar" id="Salvar" onclick="salvar()">
+        </div>
+    </div>
+</body>
+</html>

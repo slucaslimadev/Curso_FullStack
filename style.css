@@ -1,0 +1,21 @@
+@charset "UTF-8";
+div {
+    padding: 10px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+input[type=text], input[type=email], textarea, select {
+    font: 17px Calibra;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=button] {
+    font: 17px Calibra;
+    width: auto;
+    float: right;
+    cursor: pointer;
+    padding: 7px;
+}
+
